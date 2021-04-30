@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "565264090485",
+    "project_id": "dysassist",
+    "storage_bucket": "dysassist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565264090485:android:5dd80644922b0e1a9bbf3c",
+        "android_client_info": {
+          "package_name": "com.jatin.dysassist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565264090485-6q1ee8p27etgv2hjkm46cc05jt22gfb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKIy51QCDwCHf9bThVKczTSXwD6183zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565264090485-6q1ee8p27etgv2hjkm46cc05jt22gfb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
