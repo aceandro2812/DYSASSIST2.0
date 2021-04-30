@@ -1,0 +1,38 @@
+<!--
+  ~ Copyright 2019 Google Inc. All Rights Reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~  Unless required by applicable law or agreed to in writing, software
+  ~  distributed under the License is distributed on an "AS IS" BASIS,
+  ~  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  See the License for the specific language governing permissions and
+  ~  limitations under the License.
+  ~
+  -->
+
+<resources>
+    <string name="app_name">ML Kit Translate Codelab</string>
+    <string name="unknown_error">Unknown error occurred.</string>
+    <string name="content_description_google_translate_attribution">Google Translate attribution</string>
+    <string name="overlay_help">Center text in box</string>
+    <string name="downloading_model_files">Downloading model files…</string>
+    <string name="tv1">press mic for recognition</string>
+    <string name="welcome">Hello welcome to Dyslexia assist</string>
+    <string name="lettersdesc">IMAGE OF JUMBLED LETTERS</string>
+    <string name="text_with_paragraphs">
+        Can this contain a lot of text? Can it contain \n a newline? Yes, it can.
+        Adding a 2nd line like this should work.
+        It should not cause parsing errors.
+    </string>
+    <string name="text_with_paragraphs1">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    </string>
+    <string name="dyslexia_assist">DYSLEXIA ASSIST</string>
+    <string name="image_hai">image hai</string>
+    <string name="speech_to_text">Speech to text</string>
+</resources>
