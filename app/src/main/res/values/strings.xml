@@ -16,7 +16,7 @@
   -->
 
 <resources>
-    <string name="app_name">ML Kit Translate Codelab</string>
+    <string name="app_name">Assistance For Dyslexic</string>
     <string name="unknown_error">Unknown error occurred.</string>
     <string name="content_description_google_translate_attribution">Google Translate attribution</string>
     <string name="overlay_help">Center text in box</string>
@@ -35,4 +35,29 @@
     <string name="dyslexia_assist">DYSLEXIA ASSIST</string>
     <string name="image_hai">image hai</string>
     <string name="speech_to_text">Speech to text</string>
+    <string name="pasteT">Paste text here to convert into Readable FONT</string>
+    <string name="Bold_btn">BOLD</string>
+    <string name="Ittallic_btn">ITallic</string>
+    <string name="convert_btn">"Convert "</string>
+    <string name="Imagetotxt">Image To Text</string>
+    <string name="converttxtbtn">Convert text </string>
+<!--    EXTRAS FROM SPACER -->
+    <string name="textbox0"> </string>
+    <string name="textbox1"> </string>
+    <string name="textbox2"> </string>
+    <string name="textbox3"> </string>
+    <string name="textbox4"> </string>
+    <string name="textbox5"> </string>
+    <string name="textbox6"> </string>
+    <string name="textbox7"> </string>
+    <string name="textbox8"> </string>
+    <string name="textbox9"> </string>
+    <string name="textbox10"> </string>
+    <string name="textbox11"> </string>
+    <string name="textbox12"> </string>
+    <string name="textbox13"> </string>
+    <string name="textbox14"> </string>
+    <string name="editText"> </string>
+<string name="submitButton">Submit</string>
+    <string name="spacertxtbtn">Grid practice</string>
 </resources>
