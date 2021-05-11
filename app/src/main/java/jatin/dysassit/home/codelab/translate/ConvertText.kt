@@ -30,7 +30,7 @@ class ConvertText : AppCompatActivity() {
             val tf = Typeface.createFromAsset(applicationContext.assets, "fonts/italic.otf")
             pasteText.typeface = tf // making text italic
         })
-        convertbtn.setOnClickListener(View.OnClickListener {
+        regbtn.setOnClickListener(View.OnClickListener {
             val tf = Typeface.createFromAsset(applicationContext.assets, "fonts/regular.otf")
             pasteText.typeface = tf // making text open Dyslexic
         })

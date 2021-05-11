@@ -12,16 +12,16 @@
         "source": "C:\\Users\\jatin\\.gradle\\caches\\transforms-2\\files-2.1\\44e6baf5da3aa142365018920cb55fb7\\fragment-1.2.4\\res\\anim\\fragment_close_exit.xml"
     },
     {
-        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "C:\\Users\\jatin\\.gradle\\caches\\transforms-2\\files-2.1\\59575653ac69a5f74f1243f891eb83df\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\jatin\\.gradle\\caches\\transforms-2\\files-2.1\\366432456865a5ba415ffe671edf7453\\appcompat-1.2.0\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_material_clockface_view.xml.flat",
         "source": "C:\\Users\\jatin\\.gradle\\caches\\transforms-2\\files-2.1\\521815e9d82ad8644f9a2a65ca2f1761\\material-1.3.0\\res\\layout\\material_clockface_view.xml"
     },
     {
-        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\jatin\\.gradle\\caches\\transforms-2\\files-2.1\\366432456865a5ba415ffe671edf7453\\appcompat-1.2.0\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "C:\\Users\\jatin\\.gradle\\caches\\transforms-2\\files-2.1\\59575653ac69a5f74f1243f891eb83df\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
@@ -32,12 +32,12 @@
         "source": "C:\\Users\\jatin\\.gradle\\caches\\transforms-2\\files-2.1\\521815e9d82ad8644f9a2a65ca2f1761\\material-1.3.0\\res\\interpolator-v21\\mtrl_fast_out_linear_in.xml"
     },
     {
-        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\jatin\\.gradle\\caches\\transforms-2\\files-2.1\\0d9d22e9e1b328b4323069ac55969aae\\core-1.3.1\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
-    },
-    {
         "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\res\\merged\\debug\\font_pt_sans.ttf.flat",
         "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\font\\pt_sans.ttf"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\jatin\\.gradle\\caches\\transforms-2\\files-2.1\\0d9d22e9e1b328b4323069ac55969aae\\core-1.3.1\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -48,12 +48,12 @@
         "source": "C:\\Users\\jatin\\.gradle\\caches\\transforms-2\\files-2.1\\366432456865a5ba415ffe671edf7453\\appcompat-1.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
-        "source": "C:\\Users\\jatin\\.gradle\\caches\\transforms-2\\files-2.1\\366432456865a5ba415ffe671edf7453\\appcompat-1.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
-    },
-    {
         "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_ab_back_material.xml.flat",
         "source": "C:\\Users\\jatin\\.gradle\\caches\\transforms-2\\files-2.1\\366432456865a5ba415ffe671edf7453\\appcompat-1.2.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\jatin\\.gradle\\caches\\transforms-2\\files-2.1\\366432456865a5ba415ffe671edf7453\\appcompat-1.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
         "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_text_cursor_material.xml.flat",
