@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
+            "outputFile": "D:\\DYSASS2.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jatin\\.gradle\\caches\\transforms-2\\files-2.1\\366432456865a5ba415ffe671edf7453\\appcompat-1.2.0\\res\\values-fr-rCA\\values-fr-rCA.xml",

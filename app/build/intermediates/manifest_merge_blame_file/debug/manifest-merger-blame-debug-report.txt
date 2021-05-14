@@ -1,220 +1,225 @@
 1<?xml version="1.0" encoding="utf-8"?>
-2<!--
-3  ~ Copyright 2019 Google Inc. All Rights Reserved.
-4  ~
-5  ~ Licensed under the Apache License, Version 2.0 (the "License");
-6  ~ you may not use this file except in compliance with the License.
-7  ~ You may obtain a copy of the License at
-8  ~
-9  ~ http://www.apache.org/licenses/LICENSE-2.0
-10  ~
-11  ~  Unless required by applicable law or agreed to in writing, software
-12  ~  distributed under the License is distributed on an "AS IS" BASIS,
-13  ~  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-14  ~  See the License for the specific language governing permissions and
-15  ~  limitations under the License.
-16  ~
-17-->
-18<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-19    package="jatin.dysassist.home.codelab.translate"
-20    android:versionCode="1"
-21    android:versionName="1.0" >
-22
-23    <uses-sdk
-24        android:minSdkVersion="21"
-24-->D:\starter\app\src\main\AndroidManifest.xml
-25        android:targetSdkVersion="29" />
-25-->D:\starter\app\src\main\AndroidManifest.xml
-26
-27    <uses-permission android:name="android.permission.CAMERA" />
-27-->D:\starter\app\src\main\AndroidManifest.xml:22:5-65
-27-->D:\starter\app\src\main\AndroidManifest.xml:22:22-62
-28
-29    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-30    <!-- <uses-sdk android:minSdkVersion="14"/> -->
-31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-31-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:25:5-79
-31-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:25:22-76
-32    <uses-permission android:name="android.permission.INTERNET" />
-32-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:26:5-67
-32-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:26:22-64
-33
-34    <application
-34-->D:\starter\app\src\main\AndroidManifest.xml:24:5-52:19
-35        android:allowBackup="true"
-35-->D:\starter\app\src\main\AndroidManifest.xml:25:9-35
-36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-36-->[androidx.core:core:1.3.1] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\0d9d22e9e1b328b4323069ac55969aae\core-1.3.1\AndroidManifest.xml:24:18-86
-37        android:debuggable="true"
-38        android:icon="@mipmap/ic_launcher"
-38-->D:\starter\app\src\main\AndroidManifest.xml:26:9-43
-39        android:label="@string/app_name"
-39-->D:\starter\app\src\main\AndroidManifest.xml:27:9-41
-40        android:roundIcon="@mipmap/ic_launcher_round"
-40-->D:\starter\app\src\main\AndroidManifest.xml:28:9-54
-41        android:supportsRtl="true"
-41-->D:\starter\app\src\main\AndroidManifest.xml:29:9-35
-42        android:testOnly="true"
-43        android:theme="@style/AppTheme" >
-43-->D:\starter\app\src\main\AndroidManifest.xml:30:9-40
-44        <activity android:name="jatin.dysassit.home.codelab.translate.LandingPage" >
-44-->D:\starter\app\src\main\AndroidManifest.xml:31:9-37:20
-44-->D:\starter\app\src\main\AndroidManifest.xml:31:19-83
-45            <intent-filter>
-45-->D:\starter\app\src\main\AndroidManifest.xml:32:13-36:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->D:\starter\app\src\main\AndroidManifest.xml:33:17-69
-46-->D:\starter\app\src\main\AndroidManifest.xml:33:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->D:\starter\app\src\main\AndroidManifest.xml:35:17-77
-48-->D:\starter\app\src\main\AndroidManifest.xml:35:27-74
-49            </intent-filter>
-50        </activity>
-51        <activity
-51-->D:\starter\app\src\main\AndroidManifest.xml:38:9-42:20
-52            android:name="jatin.dysassit.home.codelab.translate.MainActivity"
-52-->D:\starter\app\src\main\AndroidManifest.xml:38:19-84
-53            android:screenOrientation="portrait" >
-53-->D:\starter\app\src\main\AndroidManifest.xml:38:85-121
-54            <intent-filter>
-54-->D:\starter\app\src\main\AndroidManifest.xml:39:13-41:29
-55                <category android:name="android.intent.category.DEFAULT" />
-55-->D:\starter\app\src\main\AndroidManifest.xml:40:17-75
-55-->D:\starter\app\src\main\AndroidManifest.xml:40:27-73
-56            </intent-filter>
-57        </activity>
-58        <activity android:name="jatin.dysassit.home.codelab.translate.SpeechActivity" >
-58-->D:\starter\app\src\main\AndroidManifest.xml:43:9-47:20
-58-->D:\starter\app\src\main\AndroidManifest.xml:43:19-86
-59            <intent-filter>
-59-->D:\starter\app\src\main\AndroidManifest.xml:39:13-41:29
-60                <category android:name="android.intent.category.DEFAULT" />
-60-->D:\starter\app\src\main\AndroidManifest.xml:40:17-75
-60-->D:\starter\app\src\main\AndroidManifest.xml:40:27-73
-61            </intent-filter>
-62        </activity>
-63        <!-- Automatically download the text recognition model after app install -->
-64        <meta-data
-64-->D:\starter\app\src\main\AndroidManifest.xml:49:9-51:35
-65            android:name="com.google.ml.vision.DEPENDENCIES"
-65-->D:\starter\app\src\main\AndroidManifest.xml:50:13-61
-66            android:value="ocr" />
-66-->D:\starter\app\src\main\AndroidManifest.xml:51:13-32
-67
-68        <service
-68-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\408eec78204078769e18beb1af3eb353\play-services-mlkit-text-recognition-16.0.0\AndroidManifest.xml:9:9-15:19
-69            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
-69-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\408eec78204078769e18beb1af3eb353\play-services-mlkit-text-recognition-16.0.0\AndroidManifest.xml:10:13-91
-70            android:directBootAware="true"
-70-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:17:13-43
-71            android:exported="false" >
-71-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\408eec78204078769e18beb1af3eb353\play-services-mlkit-text-recognition-16.0.0\AndroidManifest.xml:11:13-37
-72            <meta-data
-72-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\408eec78204078769e18beb1af3eb353\play-services-mlkit-text-recognition-16.0.0\AndroidManifest.xml:12:13-14:85
-73                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
-73-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\408eec78204078769e18beb1af3eb353\play-services-mlkit-text-recognition-16.0.0\AndroidManifest.xml:13:17-114
-74                android:value="com.google.firebase.components.ComponentRegistrar" />
-74-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\408eec78204078769e18beb1af3eb353\play-services-mlkit-text-recognition-16.0.0\AndroidManifest.xml:14:17-82
-75            <meta-data
-75-->[com.google.mlkit:language-id:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\9352ae66dd54da6d12cf56266313cd6a\language-id-16.0.0\AndroidManifest.xml:11:13-13:85
-76                android:name="com.google.firebase.components:com.google.mlkit.nl.languageid.LanguageIdRegistrar"
-76-->[com.google.mlkit:language-id:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\9352ae66dd54da6d12cf56266313cd6a\language-id-16.0.0\AndroidManifest.xml:12:17-113
-77                android:value="com.google.firebase.components.ComponentRegistrar" />
-77-->[com.google.mlkit:language-id:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\9352ae66dd54da6d12cf56266313cd6a\language-id-16.0.0\AndroidManifest.xml:13:17-82
-78            <meta-data
-78-->[com.google.mlkit:translate:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\91956f405509efaa6d3839f03f6e15fc\jetified-translate-16.0.0\AndroidManifest.xml:11:13-13:85
-79                android:name="com.google.firebase.components:com.google.mlkit.nl.translate.NaturalLanguageTranslateRegistrar"
-79-->[com.google.mlkit:translate:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\91956f405509efaa6d3839f03f6e15fc\jetified-translate-16.0.0\AndroidManifest.xml:12:17-126
-80                android:value="com.google.firebase.components.ComponentRegistrar" />
-80-->[com.google.mlkit:translate:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\91956f405509efaa6d3839f03f6e15fc\jetified-translate-16.0.0\AndroidManifest.xml:13:17-82
-81            <meta-data
-81-->[com.google.mlkit:translate:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\91956f405509efaa6d3839f03f6e15fc\jetified-translate-16.0.0\AndroidManifest.xml:14:13-16:85
-82                android:name="com.google.firebase.components:com.google.mlkit.nl.translate.RemoteConfigRegistrar"
-82-->[com.google.mlkit:translate:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\91956f405509efaa6d3839f03f6e15fc\jetified-translate-16.0.0\AndroidManifest.xml:15:17-114
-83                android:value="com.google.firebase.components.ComponentRegistrar" />
-83-->[com.google.mlkit:translate:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\91956f405509efaa6d3839f03f6e15fc\jetified-translate-16.0.0\AndroidManifest.xml:16:17-82
-84            <meta-data
-84-->[com.google.mlkit:vision-common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\c110b330005f034f7f79256a9cf2f3d2\vision-common-16.0.0\AndroidManifest.xml:12:13-14:85
-85                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
-85-->[com.google.mlkit:vision-common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\c110b330005f034f7f79256a9cf2f3d2\vision-common-16.0.0\AndroidManifest.xml:13:17-124
-86                android:value="com.google.firebase.components.ComponentRegistrar" />
-86-->[com.google.mlkit:vision-common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\c110b330005f034f7f79256a9cf2f3d2\vision-common-16.0.0\AndroidManifest.xml:14:17-82
-87            <meta-data
-87-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:20:13-22:85
-88                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
-88-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:21:17-120
-89                android:value="com.google.firebase.components.ComponentRegistrar" />
-89-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:22:17-82
-90        </service>
-91
-92        <provider
-92-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:9:9-13:38
-93            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
-93-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:10:13-78
-94            android:authorities="jatin.dysassist.home.codelab.translate.mlkitinitprovider"
-94-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:11:13-69
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="jatin.dysassist.home.codelab.translate"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:7:5-65
+11-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:7:22-62
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:25:5-79
+15-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:26:5-67
+16-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:26:22-64
+17
+18    <application
+18-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:9:5-56:19
+19        android:allowBackup="true"
+19-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:10:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.1] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\0d9d22e9e1b328b4323069ac55969aae\core-1.3.1\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:11:9-43
+23        android:label="@string/app_name"
+23-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:12:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:13:9-54
+25        android:supportsRtl="true"
+25-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:14:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:15:9-40
+28        <activity android:name="jatin.dysassit.home.codelab.translate.LandingPage" >
+28-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:18:9-24:20
+28-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:18:19-83
+29            <intent-filter>
+29-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:19:13-23:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:20:17-69
+30-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:20:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:22:17-77
+32-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:22:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:26:9-30:20
+36            android:name="jatin.dysassit.home.codelab.translate.MainActivity"
+36-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:26:19-84
+37            android:screenOrientation="portrait" >
+37-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:26:85-121
+38            <intent-filter>
+38-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:27:13-29:29
+39                <category android:name="android.intent.category.DEFAULT" />
+39-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:28:17-75
+39-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:28:27-73
+40            </intent-filter>
+41        </activity>
+42        <activity android:name="jatin.dysassit.home.codelab.translate.SpeechActivity" >
+42-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:32:9-36:20
+42-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:32:19-86
+43            <intent-filter>
+43-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:27:13-29:29
+44                <category android:name="android.intent.category.DEFAULT" />
+44-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:28:17-75
+44-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:28:27-73
+45            </intent-filter>
+46        </activity>
+47        <activity android:name="jatin.dysassit.home.codelab.translate.ConvertText" >
+47-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:38:9-42:20
+47-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:38:19-83
+48            <intent-filter>
+48-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:27:13-29:29
+49                <category android:name="android.intent.category.DEFAULT" />
+49-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:28:17-75
+49-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:28:27-73
+50            </intent-filter>
+51        </activity>
+52        <activity android:name="jatin.dysassit.home.codelab.translate.TextSpacer" >
+52-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:44:9-48:20
+52-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:44:19-82
+53            <intent-filter>
+53-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:27:13-29:29
+54                <category android:name="android.intent.category.DEFAULT" />
+54-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:28:17-75
+54-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:28:27-73
+55            </intent-filter>
+56        </activity>
+57
+58        <!-- Automatically download the text recognition model after app install -->
+59        <meta-data
+59-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:53:9-55:35
+60            android:name="com.google.ml.vision.DEPENDENCIES"
+60-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:54:13-61
+61            android:value="ocr" />
+61-->D:\DYSASS2.0\app\src\main\AndroidManifest.xml:55:13-32
+62
+63        <service
+63-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\408eec78204078769e18beb1af3eb353\play-services-mlkit-text-recognition-16.0.0\AndroidManifest.xml:9:9-15:19
+64            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+64-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\408eec78204078769e18beb1af3eb353\play-services-mlkit-text-recognition-16.0.0\AndroidManifest.xml:10:13-91
+65            android:directBootAware="true"
+65-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:17:13-43
+66            android:exported="false" >
+66-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\408eec78204078769e18beb1af3eb353\play-services-mlkit-text-recognition-16.0.0\AndroidManifest.xml:11:13-37
+67            <meta-data
+67-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\408eec78204078769e18beb1af3eb353\play-services-mlkit-text-recognition-16.0.0\AndroidManifest.xml:12:13-14:85
+68                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+68-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\408eec78204078769e18beb1af3eb353\play-services-mlkit-text-recognition-16.0.0\AndroidManifest.xml:13:17-114
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\408eec78204078769e18beb1af3eb353\play-services-mlkit-text-recognition-16.0.0\AndroidManifest.xml:14:17-82
+70            <meta-data
+70-->[com.google.mlkit:language-id:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\9352ae66dd54da6d12cf56266313cd6a\language-id-16.0.0\AndroidManifest.xml:11:13-13:85
+71                android:name="com.google.firebase.components:com.google.mlkit.nl.languageid.LanguageIdRegistrar"
+71-->[com.google.mlkit:language-id:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\9352ae66dd54da6d12cf56266313cd6a\language-id-16.0.0\AndroidManifest.xml:12:17-113
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.mlkit:language-id:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\9352ae66dd54da6d12cf56266313cd6a\language-id-16.0.0\AndroidManifest.xml:13:17-82
+73            <meta-data
+73-->[com.google.mlkit:translate:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\91956f405509efaa6d3839f03f6e15fc\jetified-translate-16.0.0\AndroidManifest.xml:11:13-13:85
+74                android:name="com.google.firebase.components:com.google.mlkit.nl.translate.NaturalLanguageTranslateRegistrar"
+74-->[com.google.mlkit:translate:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\91956f405509efaa6d3839f03f6e15fc\jetified-translate-16.0.0\AndroidManifest.xml:12:17-126
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.mlkit:translate:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\91956f405509efaa6d3839f03f6e15fc\jetified-translate-16.0.0\AndroidManifest.xml:13:17-82
+76            <meta-data
+76-->[com.google.mlkit:translate:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\91956f405509efaa6d3839f03f6e15fc\jetified-translate-16.0.0\AndroidManifest.xml:14:13-16:85
+77                android:name="com.google.firebase.components:com.google.mlkit.nl.translate.RemoteConfigRegistrar"
+77-->[com.google.mlkit:translate:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\91956f405509efaa6d3839f03f6e15fc\jetified-translate-16.0.0\AndroidManifest.xml:15:17-114
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.mlkit:translate:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\91956f405509efaa6d3839f03f6e15fc\jetified-translate-16.0.0\AndroidManifest.xml:16:17-82
+79            <meta-data
+79-->[com.google.mlkit:vision-common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\c110b330005f034f7f79256a9cf2f3d2\vision-common-16.0.0\AndroidManifest.xml:12:13-14:85
+80                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+80-->[com.google.mlkit:vision-common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\c110b330005f034f7f79256a9cf2f3d2\vision-common-16.0.0\AndroidManifest.xml:13:17-124
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.mlkit:vision-common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\c110b330005f034f7f79256a9cf2f3d2\vision-common-16.0.0\AndroidManifest.xml:14:17-82
+82            <meta-data
+82-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:20:13-22:85
+83                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+83-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:21:17-120
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:22:17-82
+85        </service>
+86
+87        <provider
+87-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:9:9-13:38
+88            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+88-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:10:13-78
+89            android:authorities="jatin.dysassist.home.codelab.translate.mlkitinitprovider"
+89-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:11:13-69
+90            android:exported="false"
+90-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:12:13-37
+91            android:initOrder="99" />
+91-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:13:13-35
+92
+93        <activity
+93-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\59575653ac69a5f74f1243f891eb83df\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+94            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+94-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\59575653ac69a5f74f1243f891eb83df\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 95            android:exported="false"
-95-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:12:13-37
-96            android:initOrder="99" />
-96-->[com.google.mlkit:common:16.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\991d9532f60ac40f11b8b81795e1e90e\common-16.0.0\AndroidManifest.xml:13:13-35
+95-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\59575653ac69a5f74f1243f891eb83df\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+96-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\59575653ac69a5f74f1243f891eb83df\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 97
-98        <activity
-98-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\59575653ac69a5f74f1243f891eb83df\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-99            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-99-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\59575653ac69a5f74f1243f891eb83df\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-100            android:exported="false"
-100-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\59575653ac69a5f74f1243f891eb83df\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-101-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\59575653ac69a5f74f1243f891eb83df\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-102
-103        <meta-data
-103-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\dd4c57f59e4a2d7a69258c000079cdd7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-104            android:name="com.google.android.gms.version"
-104-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\dd4c57f59e4a2d7a69258c000079cdd7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-105            android:value="@integer/google_play_services_version" />
-105-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\dd4c57f59e4a2d7a69258c000079cdd7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-106
-107        <provider
-107-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\940fc20dd4b6ab267dc71ff94591ead7\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-108            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-108-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\940fc20dd4b6ab267dc71ff94591ead7\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-109            android:authorities="jatin.dysassist.home.codelab.translate.lifecycle-process"
-109-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\940fc20dd4b6ab267dc71ff94591ead7\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-110            android:exported="false"
-110-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\940fc20dd4b6ab267dc71ff94591ead7\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-111            android:multiprocess="true" />
-111-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\940fc20dd4b6ab267dc71ff94591ead7\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-112
-113        <service
-113-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:29:9-35:19
-114            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-114-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:30:13-103
-115            android:exported="false" >
-115-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:31:13-37
-116            <meta-data
-116-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:32:13-34:39
-117                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-117-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:33:17-94
-118                android:value="cct" />
-118-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:34:17-36
+98        <meta-data
+98-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\dd4c57f59e4a2d7a69258c000079cdd7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+99            android:name="com.google.android.gms.version"
+99-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\dd4c57f59e4a2d7a69258c000079cdd7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+100            android:value="@integer/google_play_services_version" />
+100-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\dd4c57f59e4a2d7a69258c000079cdd7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+101
+102        <provider
+102-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\940fc20dd4b6ab267dc71ff94591ead7\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+103            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+103-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\940fc20dd4b6ab267dc71ff94591ead7\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+104            android:authorities="jatin.dysassist.home.codelab.translate.lifecycle-process"
+104-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\940fc20dd4b6ab267dc71ff94591ead7\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+105            android:exported="false"
+105-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\940fc20dd4b6ab267dc71ff94591ead7\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+106            android:multiprocess="true" />
+106-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\940fc20dd4b6ab267dc71ff94591ead7\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+107
+108        <service
+108-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:29:9-35:19
+109            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+109-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:30:13-103
+110            android:exported="false" >
+110-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:31:13-37
+111            <meta-data
+111-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:32:13-34:39
+112                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+112-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:33:17-94
+113                android:value="cct" />
+113-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\42a322723117e54eca235e46002d3209\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:34:17-36
+114        </service>
+115        <service
+115-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\912d136ea519547454aa791352497a2c\jetified-transport-runtime-2.2.2\AndroidManifest.xml:26:9-30:19
+116            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+116-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\912d136ea519547454aa791352497a2c\jetified-transport-runtime-2.2.2\AndroidManifest.xml:27:13-117
+117            android:exported="false"
+117-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\912d136ea519547454aa791352497a2c\jetified-transport-runtime-2.2.2\AndroidManifest.xml:28:13-37
+118            android:permission="android.permission.BIND_JOB_SERVICE" >
+118-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\912d136ea519547454aa791352497a2c\jetified-transport-runtime-2.2.2\AndroidManifest.xml:29:13-69
 119        </service>
-120        <service
-120-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\912d136ea519547454aa791352497a2c\jetified-transport-runtime-2.2.2\AndroidManifest.xml:26:9-30:19
-121            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-121-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\912d136ea519547454aa791352497a2c\jetified-transport-runtime-2.2.2\AndroidManifest.xml:27:13-117
-122            android:exported="false"
-122-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\912d136ea519547454aa791352497a2c\jetified-transport-runtime-2.2.2\AndroidManifest.xml:28:13-37
-123            android:permission="android.permission.BIND_JOB_SERVICE" >
-123-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\912d136ea519547454aa791352497a2c\jetified-transport-runtime-2.2.2\AndroidManifest.xml:29:13-69
-124        </service>
+120
+121        <receiver
+121-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\912d136ea519547454aa791352497a2c\jetified-transport-runtime-2.2.2\AndroidManifest.xml:32:9-34:40
+122            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+122-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\912d136ea519547454aa791352497a2c\jetified-transport-runtime-2.2.2\AndroidManifest.xml:33:13-132
+123            android:exported="false" />
+123-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\912d136ea519547454aa791352497a2c\jetified-transport-runtime-2.2.2\AndroidManifest.xml:34:13-37
+124    </application>
 125
-126        <receiver
-126-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\912d136ea519547454aa791352497a2c\jetified-transport-runtime-2.2.2\AndroidManifest.xml:32:9-34:40
-127            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-127-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\912d136ea519547454aa791352497a2c\jetified-transport-runtime-2.2.2\AndroidManifest.xml:33:13-132
-128            android:exported="false" />
-128-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\jatin\.gradle\caches\transforms-2\files-2.1\912d136ea519547454aa791352497a2c\jetified-transport-runtime-2.2.2\AndroidManifest.xml:34:13-37
-129    </application>
-130
-131</manifest>
+126</manifest>

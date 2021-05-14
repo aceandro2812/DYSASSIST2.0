@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
+            "outputFile": "D:\\DYSASS2.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jatin\\.gradle\\caches\\transforms-2\\files-2.1\\59575653ac69a5f74f1243f891eb83df\\play-services-base-17.0.0\\res\\values-zh-rCN\\values.xml",
