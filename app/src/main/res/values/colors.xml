@@ -20,4 +20,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="greyish">#696969</color>
+    <color name="ebony">#555D50</color>
+    <color name="dodger_blue">#1E90FF</color>
 </resources>

@@ -60,4 +60,8 @@
     <string name="editText"> </string>
 <string name="submitButton">Submit</string>
     <string name="spacertxtbtn">Grid practice</string>
+    <string name="speak">Speak</string>
+    <string name="enter_words_to_breakdown_and_practice">Enter words to breakdown and practice</string>
+    <string name="speak_it_out">speak it out</string>
+    <string name="DYSASSIST">DYS</string>
 </resources>

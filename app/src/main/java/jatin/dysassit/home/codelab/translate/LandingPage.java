@@ -3,6 +3,8 @@ package jatin.dysassit.home.codelab.translate;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,6 +24,8 @@ public class LandingPage extends AppCompatActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.landing_activity);
         tf = Typeface.createFromAsset(getApplicationContext().getAssets(), "fonts/regular.otf");

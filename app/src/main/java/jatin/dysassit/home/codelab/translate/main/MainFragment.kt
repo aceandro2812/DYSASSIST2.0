@@ -21,14 +21,13 @@ import android.Manifest
 import android.content.pm.PackageManager
 import android.graphics.*
 import android.os.Bundle
+import android.speech.tts.TextToSpeech
 import android.util.DisplayMetrics
 import android.util.Log
-import android.view.LayoutInflater
-import android.view.SurfaceHolder
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import android.widget.Button
 import android.widget.Toast
 import androidx.camera.core.*
 import androidx.camera.core.Camera
@@ -51,7 +50,7 @@ import kotlin.math.ln
 import kotlin.math.max
 import kotlin.math.min
 
-class MainFragment : Fragment() {
+class MainFragment : Fragment(), TextToSpeech.OnInitListener {
 
     companion object {
         fun newInstance() = MainFragment()
@@ -80,6 +79,8 @@ class MainFragment : Fragment() {
     private var imageAnalyzer: ImageAnalysis? = null
     private lateinit var container: ConstraintLayout
     private lateinit var viewFinder: PreviewView
+    private var tts: TextToSpeech? = null
+    private var buttonSpeak: Button? = null
 
     /** Blocking camera operations are performed using this executor */
     private lateinit var cameraExecutor: ExecutorService
@@ -91,6 +92,7 @@ class MainFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         return inflater.inflate(R.layout.main_fragment, container, false)
+
     }
 
     override fun onDestroyView() {
@@ -102,15 +104,18 @@ class MainFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
 
+        super.onViewCreated(view, savedInstanceState)
+        buttonSpeak = this.button_speak
+        
         container = view as ConstraintLayout
         viewFinder = container.findViewById(R.id.viewfinder)
 
         // Initialize our background executor
         cameraExecutor = Executors.newSingleThreadExecutor()
         scopedExecutor = ScopedExecutor(cameraExecutor)
-
+        //buttonspeak
+        button_speak!!.setOnClickListener { speak() }
         // Request camera permissions
         if (allPermissionsGranted()) {
             // Wait for the views to be properly laid out
@@ -187,6 +192,14 @@ class MainFragment : Fragment() {
 
             })
         }
+    }
+
+    private fun speak() {
+        Toast.makeText(
+                context,
+                "Feature cooking, please stay tuned",
+                Toast.LENGTH_SHORT
+        ).show()
     }
 
 
@@ -362,5 +375,12 @@ class MainFragment : Fragment() {
         ContextCompat.checkSelfPermission(
             requireContext(), it
         ) == PackageManager.PERMISSION_GRANTED
+    }
+
+    override fun onInit(status: Int) {
+        TODO("Not yet implemented")
+
+
+
     }
 }

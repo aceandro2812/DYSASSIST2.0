@@ -1069,10 +1069,13 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color dodger_blue
+color ebony
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color greyish
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color material_blue_grey_800
@@ -1666,6 +1669,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1701,7 +1705,6 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
-drawable greyscale_regular_3x
 drawable ic_baseline_accessibility_24
 drawable ic_child_background
 drawable ic_clock_black_24dp
@@ -1715,6 +1718,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable logo
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1725,6 +1729,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable micback
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1747,6 +1752,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable rounded_btn
+drawable shadow_log
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1850,12 +1857,8 @@ id boldbtn
 id bottom
 id bounce
 id buttonPanel
+id button_speak
 id cancel_button
-id card_view
-id card_view1
-id card_view2
-id card_view3
-id card_view4
 id center
 id center_horizontal
 id center_vertical
@@ -1881,7 +1884,6 @@ id content
 id contentPanel
 id contiguous
 id convertbtn
-id converttxt
 id coordinator
 id cos
 id counterclockwise
@@ -1971,7 +1973,6 @@ id ignoreRequest
 id image
 id imageView
 id imagebtn
-id imagetxt
 id info
 id invisible
 id inward
@@ -2084,6 +2085,7 @@ id radio
 id ratio
 id rectangles
 id regbtn
+id relativeLayout
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2128,9 +2130,7 @@ id snap
 id snapMargins
 id spacer
 id spacerbtn
-id spacertxt
 id speechbtn
-id speechtxt
 id spline
 id split_action_bar
 id spread
@@ -2190,6 +2190,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2369,6 +2370,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout spacer_activity
 layout speech_activity
+layout splash_screen
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius
@@ -2385,10 +2387,12 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw translate_models_metadata
 string Bold_btn
+string DYSASSIST
 string Imagetotxt
 string Ittallic_btn
 string abc_action_bar_home_description
@@ -2452,6 +2456,7 @@ string converttxtbtn
 string downloading_model_files
 string dyslexia_assist
 string editText
+string enter_words_to_breakdown_and_practice
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2520,6 +2525,8 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string spacertxtbtn
+string speak
+string speak_it_out
 string speech_to_text
 string status_bar_notification_info_overflow
 string submitButton

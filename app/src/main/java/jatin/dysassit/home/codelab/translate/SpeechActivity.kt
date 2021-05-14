@@ -11,6 +11,8 @@ import jatin.dysassit.home.codelab.translate.SpeechActivity
 import android.widget.Toast
 import android.app.Activity
 import android.view.View
+import android.view.Window
+import android.view.WindowManager
 import java.lang.Exception
 import java.util.*
 
@@ -19,6 +21,8 @@ class SpeechActivity : AppCompatActivity() {
     var voice: ImageButton? = null
     var t1: TextView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
+        requestWindowFeature(Window.FEATURE_NO_TITLE)
+        window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.speech_activity)
         voice = findViewById<View>(R.id.ib1) as ImageButton

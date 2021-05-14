@@ -2,6 +2,8 @@ package jatin.dysassit.home.codelab.translate
 
 import android.os.Bundle
 import android.view.View
+import android.view.Window
+import android.view.WindowManager
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -28,6 +30,8 @@ class TextSpacer : AppCompatActivity() {
 //    var editText: EditText? = null
 //    var buttonSubmit: Button? = null
     override fun onCreate(savedInstanceState: Bundle?) {
+    requestWindowFeature(Window.FEATURE_NO_TITLE)
+    window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.spacer_activity)
 //        editText = findViewById(R.id.ET)
