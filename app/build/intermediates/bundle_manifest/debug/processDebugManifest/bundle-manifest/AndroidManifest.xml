@@ -23,7 +23,6 @@
         android:label="@string/DYSASSIST"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
 
         <!-- SPLASHER -->

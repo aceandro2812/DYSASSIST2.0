@@ -43,6 +43,7 @@ import jatin.dysassit.home.codelab.translate.analyzer.TextAnalyzer
 import jatin.dysassit.home.codelab.translate.util.Language
 import jatin.dysassit.home.codelab.translate.util.ScopedExecutor
 import kotlinx.android.synthetic.main.main_fragment.*
+import java.util.*
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 import kotlin.math.abs
@@ -80,6 +81,7 @@ class MainFragment : Fragment(), TextToSpeech.OnInitListener {
     private lateinit var container: ConstraintLayout
     private lateinit var viewFinder: PreviewView
     private var tts: TextToSpeech? = null
+//    private lateinit var tts:TextToSpeech
     private var buttonSpeak: Button? = null
 
     /** Blocking camera operations are performed using this executor */
@@ -114,7 +116,29 @@ class MainFragment : Fragment(), TextToSpeech.OnInitListener {
         // Initialize our background executor
         cameraExecutor = Executors.newSingleThreadExecutor()
         scopedExecutor = ScopedExecutor(cameraExecutor)
+
         //buttonspeak
+        buttonSpeak!!.isEnabled = false;
+        //---------------------------------------------------------------------------------------------------------------------
+
+        //tts initalization
+        tts = TextToSpeech(activity, TextToSpeech.OnInitListener { status ->
+            if (status == TextToSpeech.SUCCESS) {
+                // set US English as language for tts
+                val result = tts!!.setLanguage(Locale.ENGLISH)
+
+                if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                    Log.e("TTS","The Language specified is not supported!")
+                } else {
+                    buttonSpeak!!.isEnabled = true
+                }
+
+            } else {
+                Log.e("TTS", "Initilization Failed!")
+            }
+        })
+        //------------------------------------------------------------------------------------------------------------------------------
+
         button_speak!!.setOnClickListener { speak() }
         // Request camera permissions
         if (allPermissionsGranted()) {
@@ -200,8 +224,27 @@ class MainFragment : Fragment(), TextToSpeech.OnInitListener {
                 "Feature cooking, please stay tuned",
                 Toast.LENGTH_SHORT
         ).show()
-    }
 
+        //get text from edit text
+        val toSpeak = translatedText.text.toString()
+        if (toSpeak == ""){
+            //if there is no text in edit text
+            Toast.makeText(context, "Enter text", Toast.LENGTH_SHORT).show()
+        }
+        else{
+            //if there is text in edit text
+            Toast.makeText(context, toSpeak, Toast.LENGTH_SHORT).show()
+            tts!!.speak(toSpeak,TextToSpeech.QUEUE_FLUSH,null,"")
+        }
+    }
+    public override fun onDestroy() {
+        // Shutdown TTS
+        if (tts != null) {
+            tts!!.stop()
+            tts!!.shutdown()
+        }
+        super.onDestroy()
+    }
 
     /** Initialize CameraX, and prepare to bind the camera use cases  */
     private fun setUpCamera() {

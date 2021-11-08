@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.camera:camera-view:1.0.0-alpha12@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/652d4283b35516ac4aaba7ca886b63b9/camera-view-1.0.0-alpha12/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/652d4283b35516ac4aaba7ca886b63b9/camera-view-1.0.0-alpha12/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/652d4283b35516ac4aaba7ca886b63b9/camera-view-1.0.0-alpha12/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b466b8af71d65e38f6c147182214fa9a/transformed/jetified-camera-view-1.0.0-alpha12/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b466b8af71d65e38f6c147182214fa9a/transformed/jetified-camera-view-1.0.0-alpha12/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b466b8af71d65e38f6c147182214fa9a/transformed/jetified-camera-view-1.0.0-alpha12/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

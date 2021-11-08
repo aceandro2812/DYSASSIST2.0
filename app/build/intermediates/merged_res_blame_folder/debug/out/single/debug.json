@@ -1,0 +1,286 @@
+[
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_child_background.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\drawable\\ic_child_background.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_cam1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_cam1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_accessibility_24.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\drawable\\ic_baseline_accessibility_24.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_convert1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_convert1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_cam1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_cam1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\layout_spacer_activity.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\layout\\spacer_activity.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\layout_font_change_activity.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\layout\\font_change_activity.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_cam1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_cam1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_shadow_log.9.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\drawable-v24\\shadow_log.9.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_mic.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\drawable\\ic_mic.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\xml_backup_descriptor.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\xml\\backup_descriptor.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_convert1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_convert1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_letters_background.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\drawable\\ic_letters_background.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\layout_main_fragment.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\layout\\main_fragment.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_grid1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_grid1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\layout_landing_activity.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\layout\\landing_activity.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_cam1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_cam1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\font_regular.otf.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\font\\regular.otf"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\font_italic.otf.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\font\\italic.otf"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_micback.jpg.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\drawable-v24\\micback.jpg"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_grid1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_grid1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_mic1.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_mic1.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\font_pt_sans.ttf.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\font\\pt_sans.ttf"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_grid1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_grid1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\font_bold.otf.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\font\\bold.otf"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_mic1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_mic1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_cam1.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_cam1.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_letters.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\drawable\\ic_letters.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_mic1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_mic1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_mic1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_mic1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\layout_speech_activity.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\layout\\speech_activity.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_grid1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_grid1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_convert1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_convert1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_convert1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_convert1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_grid1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_grid1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_mic1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_mic1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_mic1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_mic1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_cam1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_cam1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_convert1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_convert1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_convert1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_convert1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_mic1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_mic1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\font_dyslexic_font.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\font\\dyslexic_font.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_logo.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\drawable-v24\\logo.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_grid1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_grid1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\layout_main_activity.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\layout\\main_activity.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_grid1.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_grid1.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_convert1.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_convert1.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\font-v26_dyslexic_font.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\font-v26\\dyslexic_font.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_cam1.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_cam1.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_btn.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\drawable\\rounded_btn.xml"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\drawable_back.png.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\drawable\\back.png"
+    },
+    {
+        "merged": "D:\\DYSASS2.0\\app\\build\\intermediates\\merged_res\\debug\\layout_splash_screen.xml.flat",
+        "source": "D:\\DYSASS2.0\\app\\src\\main\\res\\layout\\splash_screen.xml"
+    }
+]
