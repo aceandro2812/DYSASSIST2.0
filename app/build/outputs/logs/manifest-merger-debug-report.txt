@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:4:1-65:12
-INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:4:1-65:12
-INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:4:1-65:12
-INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:4:1-65:12
+ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:4:1-65:12
+INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:4:1-65:12
+INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:4:1-65:12
+INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:4:1-65:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\jatin\.gradle\caches\transforms-3\548664cabe021280b0fe7ffde6e1f2a2\transformed\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.camera:camera-view:1.0.0-alpha12] C:\Users\jatin\.gradle\caches\transforms-3\b466b8af71d65e38f6c147182214fa9a\transformed\jetified-camera-view-1.0.0-alpha12\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\jatin\.gradle\caches\transforms-3\597b8964774b3c0395f3339fc3ba75f9\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
@@ -75,29 +75,29 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\jatin\.gradle\caches\transforms-3\1380539ae52d8c350c9231f362b3a198\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\jatin\.gradle\caches\transforms-3\e54653eced0051a2a5e3e791f652c586\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\jatin\.gradle\caches\transforms-3\0f416c6538ef7882d9a27d6870dba5d2\transformed\jetified-transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
-INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:4:1-65:12
-INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:4:1-65:12
-INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:4:1-65:12
+INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:4:1-65:12
+INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:4:1-65:12
+INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:4:1-65:12
 	package
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:5:5-49
-		INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml
-		INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:5:5-49
+		INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml
+		INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:4:1-65:12
-		INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml
+		INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:4:1-65:12
+		INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:4:1-65:12
-		INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml
+		INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:4:1-65:12
+		INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:4:11-69
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:4:11-69
 uses-permission#android.permission.CAMERA
-ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:7:5-65
+ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:7:5-65
 	android:name
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:7:22-62
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:7:22-62
 application
-ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:9:5-63:19
+ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:9:5-63:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\jatin\.gradle\caches\transforms-3\548664cabe021280b0fe7ffde6e1f2a2\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\jatin\.gradle\caches\transforms-3\548664cabe021280b0fe7ffde6e1f2a2\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\jatin\.gradle\caches\transforms-3\597b8964774b3c0395f3339fc3ba75f9\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
@@ -141,71 +141,71 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ja
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\jatin\.gradle\caches\transforms-3\d8199d7713ff3cf2eeef24fbe88800f7\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:12:9-42
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:12:9-42
 	android:roundIcon
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:15:9-40
 activity#jatin.dysassit.home.codelab.translate.Splasher
-ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:18:9-24:20
+ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:18:19-80
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:18:19-80
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:22:27-74
 activity#jatin.dysassit.home.codelab.translate.LandingPage
-ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:26:9-30:20
+ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:26:9-30:20
 	android:screenOrientation
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:26:84-120
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:26:84-120
 	android:name
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:26:19-83
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:26:19-83
 intent-filter#category:name:android.intent.category.DEFAULT
-ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:27:13-29:29
+ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:27:13-29:29
 category#android.intent.category.DEFAULT
-ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:28:17-75
+ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:28:17-75
 	android:name
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:28:27-73
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:28:27-73
 activity#jatin.dysassit.home.codelab.translate.MainActivity
-ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:33:9-37:20
+ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:33:9-37:20
 	android:screenOrientation
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:33:85-121
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:33:85-121
 	android:name
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:33:19-84
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:33:19-84
 activity#jatin.dysassit.home.codelab.translate.SpeechActivity
-ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:39:9-43:20
+ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:39:9-43:20
 	android:name
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:39:19-86
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:39:19-86
 activity#jatin.dysassit.home.codelab.translate.ConvertText
-ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:45:9-49:20
+ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:45:9-49:20
 	android:name
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:45:19-83
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:45:19-83
 activity#jatin.dysassit.home.codelab.translate.TextSpacer
-ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:51:9-55:20
+ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:51:9-55:20
 	android:name
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:51:19-82
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:51:19-82
 meta-data#com.google.ml.vision.DEPENDENCIES
-ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:60:9-62:35
+ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:60:9-62:35
 	android:value
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:62:13-32
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:62:13-32
 	android:name
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml:61:13-61
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml:61:13-61
 uses-sdk
-INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml
-INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml
+INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml
+INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\jatin\.gradle\caches\transforms-3\548664cabe021280b0fe7ffde6e1f2a2\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\jatin\.gradle\caches\transforms-3\548664cabe021280b0fe7ffde6e1f2a2\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.camera:camera-view:1.0.0-alpha12] C:\Users\jatin\.gradle\caches\transforms-3\b466b8af71d65e38f6c147182214fa9a\transformed\jetified-camera-view-1.0.0-alpha12\AndroidManifest.xml:20:5-22:41
@@ -348,16 +348,16 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\jatin\.
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\jatin\.gradle\caches\transforms-3\e54653eced0051a2a5e3e791f652c586\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\jatin\.gradle\caches\transforms-3\0f416c6538ef7882d9a27d6870dba5d2\transformed\jetified-transport-api-2.2.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\jatin\.gradle\caches\transforms-3\0f416c6538ef7882d9a27d6870dba5d2\transformed\jetified-transport-api-2.2.0\AndroidManifest.xml:18:5-20:41
-INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml
-INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml
+INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml
+INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml
-		INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml
+		INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml
+		INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml
-		ADDED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml
-		INJECTED from D:\DYSASS2.0\app\src\main\AndroidManifest.xml
+		INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml
+		ADDED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml
+		INJECTED from D:\DYSASSIST2.0\app\src\main\AndroidManifest.xml
 service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
 ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\jatin\.gradle\caches\transforms-3\5756bf537c3ffbce8c0a48f66ad51ca3\transformed\jetified-play-services-mlkit-text-recognition-16.0.0\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.mlkit:language-id:16.0.0] C:\Users\jatin\.gradle\caches\transforms-3\19806b84a8fd48212831819ef3fc7a16\transformed\jetified-language-id-16.0.0\AndroidManifest.xml:8:9-14:19

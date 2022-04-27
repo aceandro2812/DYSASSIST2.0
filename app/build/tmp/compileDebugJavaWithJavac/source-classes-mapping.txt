@@ -1,7 +1,7 @@
+com/google/mlkit/codelab/translate/BuildConfig.java
+ com.google.mlkit.codelab.translate.BuildConfig
 jatin/dysassit/home/codelab/translate/Splasher.java
  jatin.dysassit.home.codelab.translate.Splasher
  jatin.dysassit.home.codelab.translate.Splasher$1
 jatin/dysassit/home/codelab/translate/LandingPage.java
  jatin.dysassit.home.codelab.translate.LandingPage
-com/google/mlkit/codelab/translate/BuildConfig.java
- com.google.mlkit.codelab.translate.BuildConfig

@@ -2084,6 +2084,7 @@ int id progressBar 0x7f09013b
 int id progressText 0x7f09013c
 int id progress_circular 0x7f09013d
 int id progress_horizontal 0x7f09013e
+int id quizbtn 0x7f0901da
 int id radio 0x7f09013f
 int id ratio 0x7f090140
 int id rectangles 0x7f090141
@@ -2519,6 +2520,7 @@ int string mtrl_picker_toggle_to_calendar_input_mode 0x7f100079
 int string mtrl_picker_toggle_to_day_selection 0x7f10007a
 int string mtrl_picker_toggle_to_text_input_mode 0x7f10007b
 int string mtrl_picker_toggle_to_year_selection 0x7f10007c
+int string open_dyschamp 0x7f10009f
 int string overlay_help 0x7f10007d
 int string password_toggle_content_description 0x7f10007e
 int string pasteT 0x7f10007f

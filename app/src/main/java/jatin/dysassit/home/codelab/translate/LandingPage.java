@@ -1,8 +1,10 @@
 package jatin.dysassit.home.codelab.translate;
 
+import android.content.ComponentName;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -16,7 +18,9 @@ public class LandingPage extends AppCompatActivity {
     Button imagebtn1;
     Button txtbtn1;
     Button spcbtn1;
+    Button quizbtn1;
     Typeface tf;
+
 
 
 
@@ -33,6 +37,7 @@ public class LandingPage extends AppCompatActivity {
         imagebtn1 = findViewById(R.id.imagebtn);
         txtbtn1 = findViewById(R.id.convertbtn);
         spcbtn1 = findViewById(R.id.spacerbtn);
+        quizbtn1 = findViewById(R.id.quizbtn);
         speechbtn1.setOnClickListener(v -> {
             Intent intent = new Intent(LandingPage.this,SpeechActivity.class);
             // start the activity connect to the specified class
@@ -52,6 +57,13 @@ public class LandingPage extends AppCompatActivity {
             Intent intent = new Intent(LandingPage.this,TextSpacer.class);
             // start the activity connect to the specified class
             startActivity(intent);
+        });
+        quizbtn1.setOnClickListener(v -> {
+        Intent intent = getPackageManager().getLaunchIntentForPackage("com.quizapp");
+        if (intent != null){
+            startActivity(intent);
+        }
+
         });
     }
 }

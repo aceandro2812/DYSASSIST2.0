@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\DYSASS2.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
+            "outputFile": "D:\\DYSASSIST2.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jatin\\.gradle\\caches\\transforms-3\\548664cabe021280b0fe7ffde6e1f2a2\\transformed\\material-1.3.0\\res\\values-et\\values-et.xml",
